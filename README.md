@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-nonenumerable-property-in/tags). For example,
+
+```javascript
 import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@v0.2.0-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ bool = isNonEnumerablePropertyIn( obj, 'boop' );
 <body>
 <script type="module">
 
-import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@v0.2.0-esm/index.mjs';
+import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@esm/index.mjs';
 
 var bool = isNonEnumerablePropertyIn( {}, 'toString' );
 // returns true
