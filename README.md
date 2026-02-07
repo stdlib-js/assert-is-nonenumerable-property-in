@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-nonenumerable-property-in/tags). For example,
+
+```javascript
 import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@v0.2.3-deno/mod.js';
 ```
 
@@ -134,7 +139,7 @@ bool = isNonEnumerablePropertyIn( obj, 'boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@v0.2.3-deno/mod.js';
+import isNonEnumerablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonenumerable-property-in@deno/mod.js';
 
 var bool = isNonEnumerablePropertyIn( {}, 'toString' );
 // returns true
